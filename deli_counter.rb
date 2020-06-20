@@ -18,6 +18,11 @@ end
 
 def now_serving(katz_deli)
   # puts the next person in line, removes from front
-  # if nobody in line, puts "There is nobody waiting to be served!"
+  # if nobody in line, puts 
+  length = katz_deli.length 
+  if length == 0
+    puts "There is nobody waiting to be served!"
+  else
+    
 end
 
