@@ -17,7 +17,7 @@ def take_a_number(katz_deli, name)
 end
 
 def now_serving(katz_deli)
-  # puts the next person in line, removes from front
+  # puts the next person in line, removes from front .shift
   # if nobody in line, puts 
   length = katz_deli.length 
   if length == 0
