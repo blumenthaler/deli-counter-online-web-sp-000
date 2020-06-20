@@ -1,12 +1,14 @@
 # Write your code here.
 katz_deli = []
 def line(katz_deli)
-  
-  line_length = katz_deli.length
+  updated_line = take_a_number(katz_deli, name)
+  line_length = updated_line.length
+  counter = 1
     if line_length == 0
       puts "The line is currently empty."
     else
-      puts "The line is currently: #{position}. #{name}"
+      puts "The line is currently: #{counter}. #{updated_line[0]}"
+      counter +=  1
     end
 end
 
